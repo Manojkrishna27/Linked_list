@@ -20,7 +20,9 @@ node3.next=None  # last node always NONE
 head=node1 # and then step 3 make the head as start
 temp=head  # Use temp for reuse the code
 
+
 while temp is not None:  
+    
     print(temp.data,end="->")
     temp=temp.next
 print("NULL")
