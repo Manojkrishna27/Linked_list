@@ -27,7 +27,7 @@ head.next=Node(15)
 head.next.next=Node(20)
 head.next.next.next=Node(25)
 
-head=insert_at_pos(head,10,2)
+head=insert_at_pos(head,10,1)
 temp=head
 while temp!=None:
     print(temp.data,end="->")
