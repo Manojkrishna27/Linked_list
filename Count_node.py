@@ -18,5 +18,5 @@ while temp!=None:
     count+=1
     print(temp.data,end="->")
     temp=temp.next
-
+print("Null")
 print(count)
