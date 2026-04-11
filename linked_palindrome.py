@@ -25,6 +25,7 @@ def palindrome(head):
     second_half=reverse(slow) # reverse second part
 
     first_half=head
+    
     # palindrome logic
     
     while second_half:
