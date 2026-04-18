@@ -6,7 +6,7 @@ def intersection_of_list(head1,head2):
     p1=head1
     p2=head2
 
-    while p1!=p2:
+    while p1!=p2: # this check the memory address
         p1=p1.next if p1 else head2 # if not in p1 move to second list
         p2=p2.next if p2 else head1  # if not p2 move to first list
 
